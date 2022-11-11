@@ -1,0 +1,32 @@
+{
+  "ID":"login100",
+  "MongoDB": {
+    "address": "mongodb://42.193.40.234:37017/?connect=direct;slaveOk=true",
+    "dbName": "bx"
+  },
+  "RabbitMQ": {
+    "ip": "42.193.40.234",
+    "port": 5672,
+    "user": "admin",
+    "password": "admin"
+  },
+  "Redis": {
+    "ip": "42.193.40.234",
+    "port": 6379,
+    "password": "",
+    "loginIndex": 8,
+    "gameIndex": 9
+  },
+  "listen": ":443",
+
+  "smsTag": "五彩麋鹿",
+  "weiXinID": "wx41c966ee3d71ca7f",
+  "weiXinSecret": "7dd9b96d808e4478f96dd77b7d2e65e7",
+
+  "SSLKey": "./key.key",
+  "SSLPem": "./pem.pem",
+  "headDomain": "http://fileservice.hjszlyj.cn:81",
+  "newPlayerDiamondCount": 50,
+  "newPlayerRoomCard": 10,
+  "verificationCode": "123789"
+}

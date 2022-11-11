@@ -1,0 +1,21 @@
+{
+  "ID":"club",
+   "RabbitMQ": {
+    "ip": "172.27.0.10",
+    "port": 5672,
+    "user": "admin",
+    "password": "admin"
+  },
+  "MongoDB": {
+    "address": "mongodb://172.27.0.10:37017,172.27.0.10:37018,172.27.0.10:37019/?replicaSet=gameCluster",
+    "dbName": "bx"
+  },
+  "Redis": {
+    "ip": "172.27.0.10",
+    "port": 6379,
+    "password": "",
+    "loginIndex": 8,
+    "gameIndex": 9
+  },
+  "virtualPlayer":[3,5252]
+}

@@ -1,0 +1,26 @@
+{
+  "AppPrefix": "",
+  "ID":"fileService",
+  "MongoDB": {
+    "address": "mongodb://42.193.40.234:37017/?connect=direct;slaveOk=true",
+    "dbName": "bx"
+  },
+  "RabbitMQ": {
+    "ip": "42.193.40.234",
+    "port": "5672",
+    "user": "admin",
+    "password": "admin"
+  },
+  "Redis": {
+    "ip": "42.193.40.234",
+    "port": 6379,
+    "password": "",
+    "loginIndex": 8,
+    "gameIndex": 9
+  },
+  "ListenAddress": ":81",
+
+  "headDomain": "http://fileservice.hjszlyj.cn:81",
+  "fileRouteURL": "/game/",
+  "filePath": "./game/"
+}

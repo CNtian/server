@@ -1,0 +1,42 @@
+{
+  "ID":"ga912",
+  "SupportPlaying": [
+    {"playingID": 101,"name": "襄阳卡五星"},
+    {"playingID": 102,"name": "跑得快"},
+    {"playingID": 104,"name": "牛牛无庄通比"},
+    {"playingID": 105,"name": "随州卡五星"},
+    {"playingID": 106,"name": "孝感卡五星"},
+    {"playingID": 107,"name": "牛牛明牌抢庄"},
+    {"playingID": 103,"name": "诈金花"},
+    {"playingID": 108,"name": "十堰卡五星"},
+    {"playingID": 109,"name": "宜城卡五星"},
+    {"playingID": 110,"name": "血战到底"},
+    {"playingID": 111,"name": "天天卡五星"},
+    {"playingID": 112,"name": "血战卡五星"},
+    {"playingID": 114,"name": "阿坝斗14"},
+    {"playingID": 116,"name": "仙游麻将"},
+    {"playingID": 118,"name": "雅安斗14"}
+  ],
+  "RabbitMQ": {
+    "ip": "127.0.0.1",
+    "port": 5672,
+    "user": "admin",
+    "password": "admin"
+  },
+  "Redis": {
+    "ip": "127.0.0.1",
+    "port": 6379,
+    "password": "",
+    "loginIndex": 8,
+    "gameIndex": 9
+  },
+  "MongoDB": {
+    "address": "mongodb://localhost:37017,localhost:37018,localhost:37019/?replicaSet=mateCluster",
+    "dbName": "bx"
+  },
+  "TableNumberRange": {
+    "begin": 1000,"end": 1100,
+    "notice":"[0-10)"
+  },
+  "TestPai": false
+}

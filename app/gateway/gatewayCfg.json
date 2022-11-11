@@ -1,0 +1,19 @@
+{
+  "ID":"gateway100",
+  "listen":":6412",
+  "RabbitMQ": {
+    "ip": "172.27.0.10",
+    "port": 5672,
+    "user": "admin",
+    "password": "admin"
+  },
+  "Redis": {
+    "ip": "172.27.0.10",
+    "port": 6379,
+    "password": "",
+    "loginIndex": 8,
+    "gameIndex": 9
+  },
+  "remoteIP":"148.70.84.199:6412",
+  "pprof":":8991"
+}
